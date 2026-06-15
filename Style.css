@@ -8,13 +8,17 @@ body{
 height: 100%;
 width: 100%;
 }
+@font-face {
+    font-family: lala;
+    src: url(./Pixel\ Game.otf);
+}
 main{
     width: 100%;
     height: 100%;
     background-color: black;
     padding-top: 0.1px;
 }
-section{
+.section1{
     height: 95%;
     width: 63%;
     padding: 10px;
@@ -181,7 +185,7 @@ header{
     margin-left: 85%;
     margin-top: -67%;
 }
-footer{
+.foot1{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -231,4 +235,175 @@ border: 2px solid rgba(44, 21, 52, 0.9);
     background-image: url(./image\ copy\ 2.png);
      background-position: center;
     background-size: cover;
+}
+
+/* 2 ND ASSIGNMENT */
+.section2{
+    height: 92%;
+    width: 63%;
+    /* padding: 10px; */
+    margin-left: 18%;
+    margin-top: 2%;
+    position: relative;
+    background-color: #2D2833;
+      /* background: 
+        radial-gradient(circle at 90% 70%, #1C1215 -5%, transparent 50%),
+       radial-gradient(circle at 10% 20%, #1C1215 -5%, transparent 50%),
+      radial-gradient(circle at 90% 15%, #5d1cff80 -20%, transparent 38%),
+        radial-gradient(circle at 20% 50%, #ff005580 -30%, transparent 80%),
+        linear-gradient(30deg, #0d0611, #1b0d20, #2a1033);*/
+} 
+.mid{
+    height: 75%;
+    border: none;
+    clip-path: ellipse(115% 100% at 52% 0%);
+    width: 100%;
+    background-image: url(https://preview.redd.it/itap-of-a-temple-in-japan-near-mount-fuji-v0-rddyqax5rc6d1.jpeg?width=640&crop=smart&auto=webp&s=3d7333575883e267a5d9664a1829cfadfa1e2641);
+    background-position: center;
+    background-size: cover;
+}
+ .section2-nav{
+    gap: 7vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.s2navp{
+    word-spacing: 10px;
+    font-size: 12px;
+    color: #e1daec ;
+}
+.sec2-mid-but{
+    padding: 13px 40px;
+    margin-left: 40%;
+    position: absolute;
+    top: 48%;
+    background-color: #ffd968;
+    border: none;
+       cursor: pointer;
+    /* margin-bottom: -60%; */
+    border-radius: 10px;
+    /* border-left: #a745e0; */
+}
+.sec2-mid-but::before,
+.sec2-mid-but::after
+{
+    content: "";
+     position: absolute;
+        width:25px;
+    height:25px;
+}
+
+.sec2-mid-but::before{
+    content: "";
+    left: -1px;
+    bottom: 0;
+    background: 
+  linear-gradient(120deg,transparent 45%,#000 47%,#000 53%,transparent 55%),
+    linear-gradient(125deg,transparent 65%,#000 67%,#000 73%,transparent 75%);
+}
+.sec2-mid-but::after{
+    content: "";
+    right: -0.5px;
+    top: 1px;
+    background: 
+      linear-gradient(120deg, transparent 50%,black 52%,black 55%, transparent 62%),
+    linear-gradient(125deg,transparent 73%,#000 77%,#000 80%,transparent 85%);
+}
+.sec2-mid-img{
+    position: absolute;
+    width: 250px;
+    left: 33%;
+    top: 23%;
+}
+.sec2-centre{
+    text-align: center;
+    margin-top: 18vh;
+    color: white;
+}
+
+.s2h1{
+    font-size: 4.5vw;
+    word-spacing: 4vw;
+}
+.s2h2upper{
+    font-size: 20px;
+    margin-left: -44%;
+    margin-bottom: -1.5%;
+}
+.s2h2down{
+      font-size: 20px;
+      margin-right: -43%;
+      margin-top: -1.5%;
+}
+
+.ri-arrow-right-up-fill{
+    color:  #F3C3A3;
+}
+.s2navps{
+    padding: 15px 1px 0px 1px;
+    background: linear-gradient(to top ,#ad9380 ,#ae9280);
+}
+.s2nav-icons{
+    color: white;
+}
+.section2h1{
+    margin-top: 4%;
+    color: white;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+    font-style: oblique ;
+}
+.endline{
+    width: 70%;
+    height: 1px;
+    background-color: white;
+}
+
+.ri-poker-diamonds-fill{
+    color: #F3C3A3;
+    font-size: 8px;
+}
+.foot2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1%;
+    position: relative;
+}
+.foot2 i:nth-child(3){
+    position:absolute;
+    left: 49%;
+    top: -45%;
+    font-size: 13px;
+}
+.s2enddiv{
+    margin-left:15% ;
+    width: 70%;
+    height: 12%;
+    background-color:transparent;
+    display: flex;
+    padding: 15px 7px;
+    align-items: center;
+    justify-content: space-between;
+}
+.s2ced1{
+    width: 48%;
+    height: 98%;
+    background-color:transparent;
+}
+.s2ced1p{
+    font-size: 10px;
+    color: #9c98a2;
+}
+.ri-arrow-down-s-line{
+  color: white;
+  font-size: 18px;
+  transform: scaleY(1.7)  ;
+
+  font-weight: 100;
+  position: absolute;
+  margin-left: 48.7%;
+  margin-top: -9px;
 }
